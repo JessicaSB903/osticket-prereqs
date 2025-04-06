@@ -73,59 +73,59 @@ From the osTicket Installation Files Folder locate the PHP zip file and extract 
 <img src="https://i.imgur.com/UqpikmV.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-
+Another component of osTicket is the vc_redist file and mysql. Locate, click, and install both. During the mysql install- select 'typical setup', finish, and launch.
 <p>
-<img src="https://i.imgur.com/SVsQb3t.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/9B7qj4h.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-
+Choose the 'standard configuration' upon launch of 'mysql. Take note of your password. This is very important! Click next, then execute.
 <p>
-<img src="https://i.imgur.com/SVsQb3t.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/2UzMWtP.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-
+Click Start and search for IIS. Right-click and run as an admin. The PHP manager that you previously installed will be here. Double click it. 
 <p>
-<img src="https://i.imgur.com/SVsQb3t.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/BqLfQQ8.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-
+Next, you will register a new PHP version and navigate to the PHP folder on the (C:). Once inside, double-click PHP-cgi
 <p>
-<img src="https://i.imgur.com/SVsQb3t.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/V6PL2aP.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-
+Now, back into IIS to stop and restart the server. You will find this on the far right side of the IIS window.
 <p>
-<img src="https://i.imgur.com/SVsQb3t.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/0RIEbOE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-
+osTicket is ready to install! Head back to the osTicket Installation File Folder and extract. In another file explorer window, navigate to (C:)>inetpub>wwwroot and copy the folder named 'upload' (inside of osTicket) into wwwroot. 
 <p>
-<img src="https://i.imgur.com/SVsQb3t.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/VF8kS3j.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-
+The copied folder will be renamed to 'osTicket' with NO spaces.
 <p>
-<img src="https://i.imgur.com/SVsQb3t.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/arVgZKy.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-
+Running IIS as an admin, stop and start the server once again. Within the left panel, expand the 'sites' and 'Default Web Site', and click osTicket. In the right panel, click 'Browse'.
 <p>
-<img src="https://i.imgur.com/SVsQb3t.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/IxSd02o.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-
+The browser will open a page resembling the picture below. Some of the extensions are not enabled, but we will fix this!
 <p>
-<img src="https://i.imgur.com/SVsQb3t.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/2fml2R3.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-
+Inside IIS, navigate to the site>default websites>osTicket and double click PHP manager. Within the PHP manager are 'PHP Extensions' configurations. Click enable or disable an extension
 <p>
-<img src="https://i.imgur.com/SVsQb3t.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/T5jdlPa.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-
+There is a list of grayed-out extensions. You want to find these three: php_imap.dll, php_intl.dll, and php_opcache.dll. Enable all three.
 <p>
-<img src="https://i.imgur.com/SVsQb3t.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/QPatsdn.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 
