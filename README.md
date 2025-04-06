@@ -13,9 +13,12 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h2>Environments and Technologies Used</h2>
 
 - Microsoft Azure (Virtual Machines/Compute)
-- Remote Desktop
+- Remote Desktop (RDP)
+- osTicket
 - Internet Information Services (IIS)
-
+- Hypertext Preprocessor (PHP)
+- Structure Query Language (HeidiSQL)
+  
 <h2>Operating Systems Used </h2>
 
 - Windows 10</b> (21H2)
