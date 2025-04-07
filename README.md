@@ -165,7 +165,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 </p>
 <p>
 
-<p align="center">All permissions have been stripped, so now you can add permissions relevant to your needs! Simply click 'add', then 'select principal'. For instructional purposes, 'Everyone'  will be added. (This is highly NOT RECOMMENDED.) Click 'check names' then 'ok'. Give access to your preference, click apply.
+<p align="center">All permissions have been stripped, so now you can add permissions relevant to your needs! Simply click 'add', then 'select principal'. For instructional purposes, 'Everyone'  will be added. (This is highly NOT RECOMMENDED--FOR TUTORIAL PURPOSES ONLY.) Click 'check names' then 'ok'. Give access to your preference, click apply.
 <p>
 <img src="https://i.imgur.com/1PqpFcA.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
