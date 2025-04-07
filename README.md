@@ -201,7 +201,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 </p>
 <p>  
 
-<p align="center">osTicket has been successfully installed!
+  osTicket has been successfully installed!
 <p>
 <img src="https://i.imgur.com/bAh5w2n.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
