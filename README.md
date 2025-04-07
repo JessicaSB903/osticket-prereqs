@@ -65,7 +65,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <p align="center">Go inside your osTicket Installation Files Folder located on the desktop and find the PHP Manager and rewrite AMD folder. Click to install both.
 <p>
-<img src="https://i.imgur.com/SVsQb3t.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/gDBb66m.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 
